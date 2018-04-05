@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   entry: ['./src/sass/main.scss', './src/js/app.js'],
   watch: true,
+  mode: 'production',
   module: {
     rules: [
       {

@@ -1,3 +1,3 @@
-import bar from './bar';
+import hello from './hello';
 
-bar();
+hello();
