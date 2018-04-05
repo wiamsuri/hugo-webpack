@@ -1,1 +1,1 @@
-# hugo-webpack
+# HUGO Webpack

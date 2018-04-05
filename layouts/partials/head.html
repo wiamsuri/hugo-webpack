@@ -1,0 +1,8 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+
+{{ .Hugo.Generator }}
+<title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
