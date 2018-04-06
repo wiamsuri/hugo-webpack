@@ -17,7 +17,10 @@ module.exports = {
             }
           },
           {
-            loader: 'sass-loader'
+            loader: 'sass-loader',
+            options: {
+              outputStyle: 'compressed'
+            }
           }
         ]
       }
