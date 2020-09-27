@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "file-loader": "^6.0.0",
-    "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "file-loader": "^6.1.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
   }
 }
